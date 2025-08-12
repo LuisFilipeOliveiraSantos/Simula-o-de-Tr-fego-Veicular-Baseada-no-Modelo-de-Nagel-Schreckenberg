@@ -45,15 +45,15 @@ python simulacao_pygame.py
 ```
 🖥 Uma janela será aberta mostrando a estrada, faixas e veículos.
 
-### ⚙️ Parâmetros Importantes
+## ⚙️ Parâmetros Importantes
 
-# Versão Pygame
+### Versão Pygame
 N_LANES → número de faixas
 MAX_SPEED → velocidade máxima
 checkpoint_mode → "semaforo", "fiscalizacao" ou "nada"
 P_DISTRACTION → probabilidade de distração (redução aleatória de velocidade)
 
-# Versão Analítica
+### Versão Analítica
 traffic_density → densidade inicial de veículos
 max_speed → velocidade máxima
 slowdown_probability → probabilidade de desaceleração
