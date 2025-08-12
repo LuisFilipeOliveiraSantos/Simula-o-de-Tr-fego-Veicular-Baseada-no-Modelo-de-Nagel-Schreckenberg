@@ -31,13 +31,14 @@ Neste projeto, foram desenvolvidas duas abordagens:
   pip install pygame matplotlib numpy
 
 
-## Rodando a versão analítica (diagramas espaço-temporais)
+# Rodando a versão analítica (diagramas espaço-temporais)
 
 ```bash
 python simulacao_nagel_schreckenberg.py
 ```
+📊 Será gerado um gráfico em tons de cinza, onde cada ponto preto representa um veículo em determinado instante e posição.
 
-## Rodando a versão interativa (Pygame)
+# Rodando a versão interativa (Pygame)
 
 ```bash
 python simulacao_pygame.py
