@@ -48,17 +48,15 @@ python simulacao_pygame.py
 ## ⚙️ Parâmetros Importantes
 
 ### Versão Pygame
-N_LANES → número de faixas
-
-MAX_SPEED → velocidade máxima
-
-checkpoint_mode → "semaforo", "fiscalizacao" ou "nada"
-
-P_DISTRACTION → probabilidade de distração (redução aleatória de velocidade)
+   N_LANES → número de faixas
+   
+   MAX_SPEED → velocidade máxima
+   
+   checkpoint_mode → "semaforo", "fiscalizacao" ou "nada"
+   
+   P_DISTRACTION → probabilidade de distração (redução aleatória de velocidade)
 
 ### Versão Analítica
-traffic_density → densidade inicial de veículos
-
-max_speed → velocidade máxima
-
-slowdown_probability → probabilidade de desaceleração
+   traffic_density → densidade inicial de veículos
+   max_speed → velocidade máxima
+   slowdown_probability → probabilidade de desaceleração
