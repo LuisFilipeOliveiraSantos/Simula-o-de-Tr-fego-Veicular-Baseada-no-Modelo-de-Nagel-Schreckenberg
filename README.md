@@ -2,7 +2,6 @@
 Simulação de Tráfego Veicular — Modelo de Nagel–Schreckenberg e Extensões
 
 Este repositório reúne implementações do **modelo de Nagel–Schreckenberg** para simulação de tráfego veicular, incluindo uma versão visual interativa com **Pygame** e uma versão analítica que gera **diagramas espaço-temporais** em Python.  
-O objetivo é fornecer ferramentas para estudo, análise e visualização de fenômenos de tráfego, tanto em estradas simples quanto em cenários urbanos simplificados.
 
 ---
 
