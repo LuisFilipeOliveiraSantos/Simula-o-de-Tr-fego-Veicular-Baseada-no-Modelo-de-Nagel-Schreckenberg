@@ -30,3 +30,41 @@ Neste projeto, foram desenvolvidas duas abordagens:
 - Bibliotecas necessárias:
   ```bash
   pip install pygame matplotlib numpy
+
+
+## Rodando a versão analítica (diagramas espaço-temporais)
+bash
+Copiar
+Editar
+python simulacao_nagel_schreckenberg.py
+📊 Será gerado um gráfico em tons de cinza, onde cada ponto preto representa um veículo em determinado instante e posição.
+
+🔹 Rodando a versão interativa (Pygame)
+bash
+Copiar
+Editar
+python simulacao_pygame.py
+🖥 Uma janela se abrirá mostrando a estrada, faixas e veículos.
+
+Laranja = veículos (com ID visível)
+
+Verde/Amarelo/Vermelho = semáforo
+
+Azul = ponto de fiscalização
+
+⚙️ Parâmetros Importantes
+Versão Pygame
+N_LANES → número de faixas
+
+MAX_SPEED → velocidade máxima
+
+checkpoint_mode → "semaforo", "fiscalizacao" ou "nada"
+
+P_DISTRACTION → probabilidade de distração (redução aleatória de velocidade)
+
+Versão Analítica
+traffic_density → densidade inicial de veículos
+
+max_speed → velocidade máxima
+
+slowdown_probability → probabilidade de desaceleração
