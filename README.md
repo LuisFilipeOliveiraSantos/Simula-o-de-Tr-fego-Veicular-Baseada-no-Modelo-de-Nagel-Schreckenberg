@@ -24,7 +24,7 @@ Neste projeto, foram desenvolvidas duas abordagens:
 
 ## 🚀 Como Executar
 
-### 🔹 Requisitos
+### Requisitos
 - **Python 3.8+**
 - Bibliotecas necessárias:
   ```bash
